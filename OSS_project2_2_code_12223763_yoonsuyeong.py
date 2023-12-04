@@ -56,9 +56,9 @@ def train_predict_svm(X_train, Y_train, X_test):
     return predicted
 
 def calculate_RMSE(labels, predictions):
-		RMSE = np.sqrt(np.mean((predictions-labels)**2))
+    RMSE = np.sqrt(np.mean((predictions-labels)**2))
                 
-		return RMSE
+    return RMSE
 
 if __name__=='__main__':
     #DO NOT MODIFY THIS FUNCTION UNLESS PATH TO THE CSV MUST BE CHANGED.
